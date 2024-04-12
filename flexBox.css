@@ -91,3 +91,67 @@
         height: 50px;
         width: 150px;
     }
+.seccion_cursos {
+    margin: 0 auto;
+    height: 1500px;
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.cursos {
+    margin: 0 auto;
+    width: 65%;
+}
+.titulo_cursos {
+    font-size: 50px;
+    color: grey;
+}
+.curso1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url("img/1.png");
+    background-repeat: no-repeat;
+    grid-column: span 2;
+    grid-row: span 2;
+    background-size: 100% 100%;
+}
+.curso2 {
+    display: flex;
+    background-image: url("img/2.png");
+    background-repeat: no-repeat;
+    grid-row: span 2;
+    background-size: 100% 100%;
+}
+.curso3 {
+    display: flex;
+    background-image: url("img/3.png");
+    background-repeat: no-repeat;
+    grid-column: span 2;
+    background-size: 100% 100%;
+}
+.curso4 {
+    display: flex;
+    background-image: url("img/6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.curso5 {
+    display: flex;
+    background-image: url("img/4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.curso6 {
+    display: flex;
+    background-image: url("img/5.png");
+    background-repeat: no-repeat;
+    grid-column: span 2;
+    background-size: 100% 100%;
+}
+.titulo {
+    align-self: flex-end;
+    color: white;
+    padding: 5px;
+}
