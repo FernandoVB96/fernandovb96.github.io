@@ -6,10 +6,8 @@
     {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: end;
         width: 60%;
-        margin-top: 10px;
-        margin-left: 100px;
     }
 .menu ul
     {
@@ -27,9 +25,15 @@
     {
         color: rgb(0, 178, 277);
     }
+.menu a:hover {
+    color: #00B2E3;
+    font-weight: bold;
+}
 .seccion_inicio
     {
         background-color: lightgray;
+        height: 100vh;
+        padding: 0 100px;
     }
 .logo
     {
@@ -45,11 +49,6 @@
 .logo p strong
     {
         color: rgb(88, 88, 88);
-    }
-.inicio
-    {
-        margin-left: 100px;
-        margin-top: 100px;
     }
 .inicio h1
     {
@@ -91,7 +90,7 @@
         height: 50px;
         width: 150px;
     }
-.seccion_cursos {
+.cursos {
     margin: 0 auto;
     height: 1500px;
     width: 65%;
@@ -99,13 +98,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
-.cursos {
+.seccion_cursos {
     margin: 0 auto;
     width: 65%;
 }
 .titulo_cursos {
     font-size: 50px;
     color: grey;
+    font-weight: bold;
 }
 .curso1 {
     width: 100%;
